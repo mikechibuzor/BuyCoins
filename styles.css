@@ -303,7 +303,7 @@ header .profile-photo .photo {
 }
 
 .content .user-name .username {
-  font-size: 180%;
+  font-size: 1.8rem;
   font-weight: bolder;
 }
 
@@ -420,4 +420,26 @@ main .body .first-half .circle-language.JavaScript {
 
 .second-half .fp:hover {
   opacity: 0.8;
+}
+
+/* Responsive */
+@media screen and (max-width: 1400px) {
+  .content aside .user-big-photo {
+    height: 15rem;
+    width: 15rem;
+  }
+  header .search-box form input,
+  header nav ul li a,
+  .tab .photo-again p,
+  .tab ul li .tab-text,
+  .set-status-text,
+  .content .account-name,
+  .content .bio,
+  .second-half .fp span:nth-of-type(2) {
+    font-size: 1rem;
+  }
+  .content .user-name .username,
+  main .body .first-half .name-of-repo {
+    font-size: 1.5rem;
+  }
 }
