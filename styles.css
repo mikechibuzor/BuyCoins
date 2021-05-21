@@ -137,6 +137,16 @@ header .user .add {
   justify-content: center;
   margin-right: 1.5rem;
 }
+header .hamburger {
+  display: none;
+}
+header .hamburger svg {
+  height: 2rem;
+  width: 2rem;
+}
+header .hamburger svg path {
+  stroke: white;
+}
 
 header .user .add .plus-icon svg {
   height: 1.5rem;
@@ -444,5 +454,50 @@ main .body .first-half .circle-language.JavaScript {
   .content .user-name .username,
   main .body .first-half .name-of-repo {
     font-size: 1.5rem;
+  }
+}
+
+/* Responsive mobile */
+
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: space-between;
+    height: 9vh;
+  }
+  header .search-box,
+  header nav,
+  header #add,
+  header .profile-photo {
+    display: none;
+  }
+
+  header .hamburger {
+    display: block;
+    position: absolute;
+    left: 0.5rem;
+    top: 1.3rem;
+  }
+
+  header .logo {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  header .notification-bell {
+    position: absolute;
+    right: -2rem;
+    top: 0rem;
+  }
+
+  header .notification-bell svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
   }
 }
