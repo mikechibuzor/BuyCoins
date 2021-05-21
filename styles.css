@@ -16,6 +16,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.container {
+  background: #fff;
+}
 header {
   display: flex;
   align-items: center;
