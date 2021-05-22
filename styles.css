@@ -500,4 +500,26 @@ main .body .first-half .circle-language.JavaScript {
   .content {
     grid-template-columns: 1fr;
   }
+
+  .photo-again {
+    display: none;
+  }
+
+  .tab {
+    position: relative;
+    padding-top: 58vh;
+  }
+
+  .tab ul {
+    margin-left: -35%;
+  }
+
+  .user-profile {
+    position: absolute;
+    top: 18vh;
+  }
+
+  main {
+    padding: 0 1.5rem;
+  }
 }
