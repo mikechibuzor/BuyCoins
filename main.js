@@ -58,7 +58,7 @@ class PopulateData {
 
 // I put this in an object because.. i think it's better there
 const githubData = {
-  token: "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",
+  token: "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",
   username: "mikechibuzor",
 };
 
